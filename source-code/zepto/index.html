@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src="/src/zue.js"></script>
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo" id="logo">
+          <svg
+            viewBox="0 0 1000 1000"
+            style="height: 1em; width: 1em; display: block; fill: currentColor"
+          >
+            <path
+              d="M499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"
+            ></path>
+          </svg>
+          <span class="app-name">airbnb</span>
+        </div>
+        <div class="search">
+          <input
+            placeholder="Where are you going?"
+            type="text"
+            class="search-input"
+          />
+          <span class="triangle">Browse</span>
+          <svg
+            viewBox="0 0 24 24"
+            style="height: 18px; width: 18px; display: block; fill: #767676"
+            data-reactid="134"
+          >
+            <path
+              d="M10.4 18.2c-4.2-.6-7.2-4.5-6.6-8.8.6-4.2 4.5-7.2 8.8-6.6 4.2.6 7.2 4.5 6.6 8.8-.6 4.2-4.6 7.2-8.8 6.6M23 22l-5-5c1.4-1.4 2.3-3.1 2.6-5.2.7-5.1-2.8-9.7-7.8-10.5-5-.7-9.7 2.8-10.5 7.9-.7 5.1 2.8 9.7 7.8 10.5 2.5.4 4.9-.3 6.7-1.7v.1l5 5c.3.3.8.3 1.1 0 .3-.3.4-.8.1-1.1"
+              fill-rule="evenodd"
+              data-reactid="135"
+            ></path>
+          </svg>
+        </div>
+        <div class="header-right">
+          <div class="favicon">QQ</div>
+          <span class="triangle">Kenny</span>
+
+          <svg
+            viewBox="0 0 34 34"
+            style="height: 24px; width: 24px; margin-right: 10px"
+          >
+            <path
+              d="M2 7 H32 V27 H2 V7 Z"
+              stroke="#767676"
+              fill="transparent"
+              stroke-width="2"
+            ></path>
+            <path
+              d="M2 7.5 L 18 18 L 32 7.5"
+              stroke="#767676"
+              fill="transparent"
+              stroke-width="2"
+            ></path>
+          </svg>
+
+          <span class="triangle">Help</span>
+          <button>List Your Spance</button>
+        </div>
+      </header>
+      <main class="container">
+        <div class="left">
+          <nav>
+            <div>
+              <ul>
+                <li class="nav-item"><a href="">Dashboard</a></li>
+                <li class="nav-item"><a href="">Inbox</a></li>
+                <li class="nav-item"><a href="">Your Listings</a></li>
+                <li class="nav-item"><a href="">Your Trips</a></li>
+                <li class="nav-item"><a href="">Profile</a></li>
+                <li class="nav-item"><a href="">Account</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="main-search">
+            <input type="text" placeholder="Where do you want to go?" />
+            <div>
+              <a href="javascript:void(0)">Arrive</a>
+              <a href="javascript:void(0)">Depart</a>
+              <a href="javascript:void(0)">2 Guests</a>
+              <a href="javascript:void(0)">Search</a>
+            </div>
+          </div>
+          <div class="content">
+            <section class="content-left">
+              <ul>
+                <li class="list-item">
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                </li>
+                <li class="list-item">
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                </li>
+                <li class="list-item">
+                  <svg
+                    viewBox="0 0 100 24"
+                    style="height: 24px; width: 100px; margin-right: 10px"
+                  >
+                    <circle
+                      cx="10"
+                      cy="12"
+                      r="6"
+                      stroke="#ff4650"
+                      fill="#ff4650"
+                    />
+                    <circle
+                      cx="35"
+                      cy="12"
+                      r="6"
+                      stroke="#cdd0cc"
+                      fill="#cdd0cc"
+                    />
+                    <circle
+                      cx="60"
+                      cy="12"
+                      r="6"
+                      stroke="#9ca299"
+                      fill="#9ca299"
+                    />
+                    <circle
+                      cx="85"
+                      cy="12"
+                      r="6"
+                      stroke="#565a5c"
+                      fill="#565a5c"
+                    />
+                  </svg>
+                  <svg
+                    viewBox="0 0 100 24"
+                    style="height: 24px; width: 100px; margin-right: 10px"
+                  >
+                    <circle
+                      cx="10"
+                      cy="12"
+                      r="6"
+                      stroke="#007a87"
+                      fill="#007a87"
+                    />
+                    <circle
+                      cx="35"
+                      cy="12"
+                      r="6"
+                      stroke="#00d1c1"
+                      fill="#00d1c1"
+                    />
+                    <circle
+                      cx="60"
+                      cy="12"
+                      r="6"
+                      stroke="#8ce071"
+                      fill="#8ce071"
+                    />
+                    <circle
+                      cx="85"
+                      cy="12"
+                      r="6"
+                      stroke="#ffb400"
+                      fill="#ffb400"
+                    />
+                  </svg>
+                  <svg
+                    viewBox="0 0 100 24"
+                    style="height: 24px; width: 100px; margin-right: 10px"
+                  >
+                    <circle
+                      cx="10"
+                      cy="12"
+                      r="6"
+                      stroke="#b4a76c"
+                      fill="#b4a76c"
+                    />
+                    <circle
+                      cx="35"
+                      cy="12"
+                      r="6"
+                      stroke="#6c6441"
+                      fill="#6c6441"
+                    />
+                    <circle
+                      cx="60"
+                      cy="12"
+                      r="6"
+                      stroke="#7b0051"
+                      fill="#7b0051"
+                    />
+                    <circle
+                      cx="85"
+                      cy="12"
+                      r="6"
+                      stroke="#ffaa91"
+                      fill="#ffaa91"
+                    />
+                  </svg>
+                </li>
+                <li class="list-item card-wrapper">
+                  <div>
+                    <div class="card-list" style="background: #ff4650"></div>
+                    <p>Raush</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #cdd0cc"></div>
+                    <p>Ebisu</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #9ca299"></div>
+                    <p>HackBarry</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #565a5c"></div>
+                    <p>Kazan</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #007a87"></div>
+                    <p>Babu</p>
+                  </div>
+                </li>
+                <li class="list-item card-wrapper">
+                  <div>
+                    <div class="card-list" style="background: #00d1c1"></div>
+                    <p>Raush</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #8ce071"></div>
+                    <p>Ebisu</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #ffb400"></div>
+                    <p>HackBarry</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #b4a76c"></div>
+                    <p>Kazan</p>
+                  </div>
+                  <div>
+                    <div class="card-list" style="background: #6c6441"></div>
+                    <p>Babu</p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="content-right">
+              <header>
+                <p>Host Metrics</p>
+              </header>
+              <main>
+                <div>
+                  <svg
+                    viewBox="0 0 202 202"
+                    style="height: 202px; width: 202px"
+                  >
+                    <circle
+                      cx="101"
+                      cy="101"
+                      r="85"
+                      stroke="#ff4650"
+                      stroke-width="30"
+                      fill="transparent"
+                      stroke-
+                    />
+                    <text
+                      x="55"
+                      y="105"
+                      fill="#ff4650"
+                      font-family="Verdana"
+                      font-size="35"
+                      font-weight="600"
+                    >
+                      99%
+                    </text>
+                    <text
+                      x="45"
+                      y="125"
+                      fill="#ff4650"
+                      font-family="Verdana"
+                      font-size="14"
+                    >
+                      Acceptance Rate
+                    </text>
+                  </svg>
+                </div>
+                <p>
+                  That's 31% lower than hosts in your neighborhood, 29% lower
+                  than hosts in your city.
+                </p>
+              </main>
+            </section>
+          </div>
+        </div>
+        <div class="right">
+          <section class="section-top">
+            <p>Hosts have welconed over 11 million travelers on Airbnb</p>
+            <p>Learn about Airbnb's economic impact</p>
+          </section>
+          <section class="section-bottom">
+            <svg
+              viewBox="0 0 60 60"
+              style="height: 60px; width: 60px; margin: 0 20px"
+            >
+              <circle cx="30" cy="30" r="30" fill="#6c6441" />
+              <text
+                x="10"
+                y="37"
+                fill="#fff"
+                style="fill: #fff; font-family: Verdana; font-size: 24"
+              >
+                QQ
+              </text>
+            </svg>
+            <div>
+              <p>Penelope Bain</p>
+              <p>Aug 21 - 30, 2014</p>
+              <p>Accepted</p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/test.js"></script>
+  </body>
+</html>
